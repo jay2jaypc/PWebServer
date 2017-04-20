@@ -1,0 +1,10 @@
+ <div data-ng-app>
+  <div class="carousel">
+    <ul class="slides">
+      <li *ngFor="let Pic of PICS">
+        <h2>{{Pic.title}}</h2>
+        <img [src]="Pic.url">
+      </li>
+    </ul>
+  </div>
+</div>
